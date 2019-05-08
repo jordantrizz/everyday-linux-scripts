@@ -19,3 +19,7 @@
 ## Linux Scripts
 ### webprotect
 Simple script to password protect web directories under Apache Web Server
+### adddb
+Add a MySQL database
+### addwww
+Add a local user and configuration to NGiNX based on templates.
