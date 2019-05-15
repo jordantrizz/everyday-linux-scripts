@@ -100,7 +100,8 @@ sub read_bool {
 sub create_database {
 
 print("\n\nCreating Database...\n");
-if (system("mysql -e'CREATE DATABASE $dbname;'")) {
+$create_db = "mysql -e'CREATE DATABASE $dbname;'"
+if (system("$create_db")) {
         print "\nCouldn't create database...\n";
         exit;
 }
