@@ -6,4 +6,4 @@ if [ -z "$GIT_ROOT" ]; then
 else
 	export ULTB_ROOT=$GIT_ROOT
 fi
-export PATH=$PATH:$ULTB_ROOT/ultimate-linux-tool-box:$ULTB_ROOT/ultimate-linux-tool-box/clustergit:$ULTB_ROOT/ultimate-linux-tool-box/MySQLTuner-perl:$ULTB_ROOT/parsyncfp
+export PATH=$PATH:$ULTB_ROOT/ultimate-linux-tool-box:$ULTB_ROOT/ultimate-linux-tool-box/clustergit:$ULTB_ROOT/ultimate-linux-tool-box/MySQLTuner-perl:$ULTB_ROOT/ultimate-linux-tool-box/parsyncfp
