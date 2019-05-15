@@ -4,3 +4,6 @@
 [submodule "MySQLTuner-perl"]
 	path = MySQLTuner-perl
 	url = https://github.com/major/MySQLTuner-perl
+[submodule "parsyncfp"]
+	path = parsyncfp
+	url = https://github.com/hjmangalam/parsyncfp.git
