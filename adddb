@@ -99,17 +99,18 @@ sub read_bool {
 
 sub create_database {
 
-print("\n\nCreating Database...\n");
-$create_db = "mysql -e'CREATE DATABASE $dbname;'"
-if (system("$create_db")) {
+my $create_db = "mysql -e'CREATE DATABASE $dbname;'";
+print("\n\nCreating Database...\n$create_db\n");
+if (system($create_db)) {
         print "\nCouldn't create database...\n";
         exit;
 }
 print("\n\nDatabase Created Successfully!\n");
 
 
-print("\n\nCreating Permissions...\n");
-if (system("mysql -e'GRANT ALL ON $dbname.* TO $dbuser\@localhost IDENTIFIED BY \"$dbpass\";'")) {
+my $create_perm = "mysql -e'GRANT ALL ON $dbname.* TO $dbuser\@localhost IDENTIFIED BY \"$dbpass\";'";
+print("\n\nCreating Permissions...\n$create_perm\n");
+if (system($create_perm)) {
         print "\nCouldn't create permissions...\n";
         exit;
 }
