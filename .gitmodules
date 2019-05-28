@@ -1,9 +1,12 @@
 [submodule "clustergit"]
+	branch = master
 	path = clustergit
 	url = https://github.com/mnagel/clustergit
 [submodule "MySQLTuner-perl"]
+	branch = master
 	path = MySQLTuner-perl
 	url = https://github.com/major/MySQLTuner-perl
 [submodule "parsyncfp"]
+	branch = master
 	path = parsyncfp
 	url = https://github.com/hjmangalam/parsyncfp.git
