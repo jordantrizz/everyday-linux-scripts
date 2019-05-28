@@ -1,7 +1,3 @@
-[submodule "clustergit"]
-	branch = master
-	path = clustergit
-	url = https://github.com/mnagel/clustergit
 [submodule "MySQLTuner-perl"]
 	branch = master
 	path = MySQLTuner-perl
