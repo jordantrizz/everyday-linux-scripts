@@ -6,3 +6,7 @@
 	branch = master
 	path = parsyncfp
 	url = https://github.com/hjmangalam/parsyncfp.git
+[submodule "clustergit"]
+	path = clustergit
+	url = https://github.com/mnagel/clustergit.git
+	branch = master
