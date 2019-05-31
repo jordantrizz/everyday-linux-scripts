@@ -11,11 +11,16 @@
 <!--te-->
 # Ultimate Tool Box for Systems Administration
 # Tools
+## Database
+Script | Description
+ --- | --- |
+mybkdb | Backup a MySQL database.
 ## PHP
 Script | Description|
  --- | --- |
 memory.php | Test PHP memory exhaustion, details in code.
 php-cpu-test.php | Run's a simple round of PHP functions to test the CPU response time.
+mysql_test.php | Test if a MySQL database works via PHP mysqli
 ## Linux Scripts
 Command | Description|
  --- | --- |
