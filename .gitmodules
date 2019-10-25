@@ -13,3 +13,6 @@
 [submodule "AutoMySQLBackup"]
 	path = AutoMySQLBackup
 	url = https://github.com/sixhop/AutoMySQLBackup.git
+[submodule "httpstat"]
+	path = httpstat
+	url = https://github.com/reorx/httpstat.git

@@ -10,6 +10,10 @@
 
 <!--te-->
 # Ultimate Tool Box for Systems Administration
+# Adding GIT Repositories
+* ```git add submodule https://github.com/reorx/httpstat.git```
+* Add new tool to $PATH
+
 # Tools
 ## File Transfer
 Command | Description | Example
