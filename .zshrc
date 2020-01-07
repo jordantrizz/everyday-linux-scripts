@@ -1,3 +1,6 @@
+# Install some tools
+pip install ngxtop
+
 # Setting paths
 # We use $GIT_ROOT to know our working directory.
 if [ -z "$GIT_ROOT" ]; then
