@@ -1,5 +1,16 @@
-# Install some tools
-pip install ngxtop
+# Functions
+#---- ultb_install - install some required ultb packages.
+ultb-install() {
+	apt install python3-pip
+	pip install ngxtop
+}
+
+# Mention some tools need to be installed.
+if (( !$+commands[ls] )); then
+	echo "pip doesn't exist?"
+else
+	echo "pip not installed, run ultb-install"
+fi
 
 # Setting paths
 # We use $GIT_ROOT to know our working directory.
