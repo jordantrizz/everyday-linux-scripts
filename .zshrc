@@ -15,6 +15,7 @@ fi
 # -- Setting paths
 if [ ! -z "$ZSH_ROOT" ]; then
         echo "\$ZSH_ROOT exists, using \$ZSH_ROOT/zsh/ultimate-linux-tool-box"        
+        export ULTB_ROOT=$ZSH_ROOT/zsh
 elif [ -z "$GIT_ROOT" ]; then
 	echo "\$GIT_ROOT empty so using \$HOME/zsh/ultimate-linux-tool-box"
 	export ULTB_ROOT=$HOME/zsh
