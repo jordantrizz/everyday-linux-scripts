@@ -19,6 +19,3 @@
 [submodule "ngxtop"]
 	path = ngxtop
 	url = https://github.com/lebinh/ngxtop
-[submodule "cloudflare-cli"]
-	path = cloudflare-cli
-	url = https://github.com/bAndie91/cloudflare-cli.git
