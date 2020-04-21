@@ -30,4 +30,4 @@ export PATH=$PATH:$ULTB_ROOT/clustergit
 export PATH=$PATH:$ULTB_ROOT/MySQLTuner-perl
 export PATH=$PATH:$ULTB_ROOT/parsyncfp
 export PATH=$PATH:$ULTB_ROOT/httpstat
-export PATH=$PATH:$ULTB_ROOT/cloudflare-cli
+export PATH=$PATH:$ULTB_ROOT/cloudflare-cli/bin
