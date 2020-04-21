@@ -1,17 +1,8 @@
 # Functions
 # -- ultb_install - install some required ultb packages.
-ultb-install() {
+ultb-install () {
 	sudo apt install python3-pip
 	pip install ngxtop
-}
-
-# -- Let's grab some dependencies.
-ultb_repositories() {
-	git clone https://github.com/danielpigott/cloudflare-cli.git $ULTB_ROOT/cloudflare-cli
-	set_path("$ULTB_ROOT/cloudflare-cli")
-}
-set_path() {
-	export PATH=$PATH:$@
 }
 
 # -- Mention some tools need to be installed.
@@ -39,3 +30,4 @@ export PATH=$PATH:$ULTB_ROOT/clustergit
 export PATH=$PATH:$ULTB_ROOT/MySQLTuner-perl
 export PATH=$PATH:$ULTB_ROOT/parsyncfp
 export PATH=$PATH:$ULTB_ROOT/httpstat
+export PATH=$PATH:$ULTB_ROOT/cloudflare-cli
