@@ -1,8 +1,8 @@
 # Functions
 # -- ultb_install - install some required ultb packages.
 ultb_install () {
-	sudo apt install python3-pip node
-	sudo pip install ngxtop
+	sudo apt install python3-pip npm
+	sudo pip install ngxtop 
 	npm install -g cloudflare-cli
 }
 
