@@ -1,7 +1,7 @@
 # Functions
 # -- ultb_install - install some required ultb packages.
 ultb-install() {
-	apt install python3-pip
+	sudo apt install python3-pip
 	pip install ngxtop
 }
 
