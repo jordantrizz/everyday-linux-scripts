@@ -36,6 +36,7 @@ adddb | Add a MySQL database
 addwww | Add a local user and configuration to NGiNX based on templates.
 rndpass.pl | A random password generator written in perl.
 mysqltuner.pl | The usual http://mysqltuner.pl
+mybkdb-all | Backup all MySQL Databases on a host into the current working directory under the backup folder
 
 # Contributing
 ## Adding GIT Repositories
