@@ -6,10 +6,6 @@ else
 	BACKUP_DIR=$1
 fi
 
-echo "$BACKUP_DIR"
-echo "Test\n"
-exit
-
 MYSQL=/usr/bin/mysql
 MYSQLDUMP=/usr/bin/mysqldump
 
