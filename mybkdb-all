@@ -1,10 +1,16 @@
 #!/bin/bash
-
 TIMESTAMP=$(date +"%F")
-BACKUP_DIR="backup/$TIMESTAMP"
-#MYSQL_USER="backup"
+if [ -z "$1" ];then
+	BACKUP_DIR="backup/$TIMESTAMP"
+else
+	BACKUP_DIR=$1
+fi
+
+echo "$BACKUP_DIR"
+echo "Test\n"
+exit
+
 MYSQL=/usr/bin/mysql
-#MYSQL_PASSWORD="password"
 MYSQLDUMP=/usr/bin/mysqldump
 
 mkdir -p "$BACKUP_DIR/mysql"
