@@ -15,6 +15,7 @@ export PATH=$PATH:$ULTB_ROOT/MySQLTuner-perl
 export PATH=$PATH:$ULTB_ROOT/parsyncfp
 export PATH=$PATH:$ULTB_ROOT/httpstat
 export PATH=$PATH:$ULTB_ROOT/cloudflare-cli/bin
+export PATH=$PATH:$ULTB_ROOT/dog/bin
 
 # Functions
 source $ULTB_ROOT/functions.zsh
