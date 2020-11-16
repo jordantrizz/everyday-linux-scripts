@@ -10,10 +10,7 @@
 
 <!--te-->
 # Ultimate Tool Box for Systems Administration
-# Adding GIT Repositories
-* ```git add submodule https://github.com/reorx/httpstat.git```
-* Add new tool to $PATH
-
+This repository was created as a means to track the collection of scripts used for system administration on linux systems.
 # Tools
 ## File Transfer
 Command | Description | Example
@@ -39,4 +36,12 @@ adddb | Add a MySQL database
 addwww | Add a local user and configuration to NGiNX based on templates.
 rndpass.pl | A random password generator written in perl.
 mysqltuner.pl | The usual http://mysqltuner.pl
- 
+mybkdb-all | Backup all MySQL Databases on a host into the current working directory under the backup folder
+
+# Contributing
+## Adding GIT Repositories
+* ```git submodule add https://github.com/reorx/httpstat.git```
+* Add new tool to $PATH
+## Removing GIT Repositories# Adding GIT Repositories
+* ```git submodule add https://github.com/reorx/httpstat.git```
+* Add new tool to $PATH
